@@ -31,6 +31,7 @@ def calculate(root):
     elif root.data == '-':
       root.data = str(float(root.left.data) - float(root.right.data))
       return root.data
+  return root.data
 
 #####################################
 def insrt(root, data, value):
