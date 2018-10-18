@@ -90,7 +90,8 @@ j = int(0)
 root = Tree()
 
 j = i
-sign = strin[i]
+if strin[i] == '-':
+  i=i+1
 while(i < len(strin)):
   if strin[i] == '+' or strin[i] == '-' or strin[i] == '/' or strin[i] == '*':
     sign_list.append(strin[i])
