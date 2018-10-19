@@ -90,7 +90,7 @@ j = int(0)
 root = Tree()
 
 j = i
-if strin[i] == '-':
+if strin[i] == '-' or strin[i] == '+':
   i=i+1
 while(i < len(strin)):
   if strin[i] == '+' or strin[i] == '-' or strin[i] == '/' or strin[i] == '*':
