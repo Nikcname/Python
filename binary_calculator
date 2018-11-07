@@ -1,0 +1,30 @@
+
+def returnOp(num):
+  arr = []
+  for i in num:
+    if i == '0':
+      arr.append('-')
+    elif i == '1':
+      arr.append('+')
+  return arr
+
+sym_arr = []
+sum_search = int(input("Sum eq:"))
+for i in range(512, 1024):
+  str_calc = ''
+  sym_arr = returnOp(bin(i)[3:])
+  for j in range(1, 10):
+    k = j - 1
+    str_calc += str(sym_arr[k])
+    str_calc += str(j)
+
+  str_sum = int(0)
+
+  for m in range(len(str_calc)):
+    if str_calc[m] == '+':
+      str_sum += int(str_calc[m+1])
+    elif str_calc[m] == '-':
+      str_sum -= int(str_calc[m+1])
+  
+  if str_sum == sum_search:
+    print(str_calc)
