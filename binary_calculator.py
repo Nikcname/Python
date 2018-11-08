@@ -9,14 +9,12 @@ def returnOp(num):
   return arr
 
 sym_arr = []
-sum_search = int(input("Sum eq:"))
+sum_search = int(input("Sum Ex eq:"))
 for i in range(512, 1024):
   str_calc = ''
   sym_arr = returnOp(bin(i)[3:])
   for j in range(1, 10):
-    k = j - 1
-    str_calc += str(sym_arr[k])
-    str_calc += str(j)
+    str_calc += str(sym_arr[j - 1]) + str(j)
 
   str_sum = int(0)
 
