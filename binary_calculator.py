@@ -27,3 +27,4 @@ for i in range(512, 1024):
   if str_sum == sum_search:
     print(str_calc)
 #https://gist.github.com/webinmd/c5c3592db7dc043406469a0eb6056331
+#https://git-scm.com/book/en/v2
