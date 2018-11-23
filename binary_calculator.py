@@ -29,3 +29,4 @@ for i in range(512, 1024):
 #https://gist.github.com/webinmd/c5c3592db7dc043406469a0eb6056331
 #https://git-scm.com/book/en/v2
 #https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
+#https://www.tldp.org/guides.html
