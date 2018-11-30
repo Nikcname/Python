@@ -30,3 +30,4 @@ for i in range(512, 1024):
 #https://git-scm.com/book/en/v2
 #https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html
 #https://www.tldp.org/guides.html
+#https://www.journaldev.com/19757/kotlin-print-println-readline-scanner-repl
